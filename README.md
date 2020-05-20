@@ -27,6 +27,9 @@ Just Import the Repository in Eclipse of IntelliJ. Start the Server by running t
   "product_quantity": 0
     }**
     **If the id is 0, product would be treated as new product. It id is given in the payload then the system would update the       existing product with that id.**
- 5. You can now trye to hit **Get Catalog** API to the product catalog.
+ 5. You can now try to hit **Get Catalog** API to the product catalog.
  6. Now add some products into cart using the **Shopping Cart** API. The systme automatically adds the item in the cart of the     current logged in Users.
+ 
+ 
+ # Unable to Add Mockito Test Cases due to lack of time.
 
