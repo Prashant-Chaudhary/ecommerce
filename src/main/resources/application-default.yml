@@ -1,0 +1,18 @@
+#Logging configuration
+logging:
+  level:
+    org.springframework.web: ERROR
+    com.doubtnut.backend: DEBUG
+  pattern:
+    console: "[%d{yyyy-MM-dd HH:mm:ss}] - [%msg]%n"
+    file: "[%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36}] - [%msg]%n"
+  file: ./saggezza/logs.log
+
+#Swagger configuration
+swagger:
+    config:
+      base-package: com.saggezza.ecommerce
+      url-endpoints: /api.* 
+      application-version: 1.0
+      application-name: Saggezza REST Assignment App Rest Endpoints
+      application-description: Rest End Points for Saggezza Assignment
